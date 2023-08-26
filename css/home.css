@@ -1,0 +1,264 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+}
+
+.bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
+    filter: blur(5px);
+}
+
+.spacer {
+    width: 100vw;
+    height: 100vh;
+    z-index:-10;
+}
+
+.content {
+    background: #000;
+    padding-inline: 5vw;
+    padding-block: 5vw;
+    z-index: 100;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 2vw;
+    line-height: 1;
+    z-index: 0;
+    top: 40%;
+    left: 5vw;
+    width: 70%;
+    gap: 4vw;
+    z-index: 10;
+}
+.header h1{
+    margin: 0px;
+}
+
+.header h2 {
+    margin: 0px;
+    font-size: 2.5vw;
+    line-height: 40px;
+}
+
+.header h6 {
+    font-weight: normal;
+    font-size: 1.7vw;
+    line-height: 28px;
+    margin: 0px;
+}
+.header-div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 30;
+    position: relative;
+}
+
+.main {
+    z-index: 20;
+}
+input{
+    padding: 8px 16px 8px 16px;
+    width: 20vw;
+    min-width: 200px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    height: 3vh;
+    z-index: 999;
+    font-size: 16px;
+}
+.pad{
+    width: 100%;
+    height: 100%;
+    padding: 5vw;
+}
+.info{
+    display: flex;
+    height: 50%;
+}
+.info-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 16px;
+}
+.info-text h1{
+    font-size: 4vw;
+    line-height: 1;
+}
+.info-text h2{
+    font-size: 1.5vw;
+    line-height: 28px;
+}
+.info-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.bg-grad{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    rotate: 180deg;
+     background: rgb(0, 0, 0);
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0) 65%, rgb(0, 0, 0) 100%);
+     z-index: 30;
+}
+.sign-up{
+    display: flex;
+    color: #fafafa;
+    font-size: 60px;
+    gap: 32px;
+}
+.sign-up button{
+    padding: 8px 16px 8px 16px;
+    height: 5vh;
+    background-color: #BB0808;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+*{
+    /* border: red 1px dashed; */
+}
+
+@media (max-width:768px){
+    .header {
+        top: 35%;
+        gap: 16px;
+        width: 90%;
+    }
+    .header h1{
+        font-size:48px;
+    }
+    
+    .header h2 {
+        margin: 0px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .sign-up button{
+        font-size: 16px;
+    }
+    .header h6 {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0px;
+    }
+    .info-text h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .info-text h2{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-text{
+        text-align: center;
+       width: 100%;
+       order: 1;
+    }
+    .info-img{
+        width: 100%;
+        order: 2;
+    }
+}
+
+@media (max-width:480px){
+    .header {
+        top: 35%;
+        gap: 16px;
+        width: 90%;
+    }
+    .header h1{
+        font-size:36px;
+    }
+    
+    .header h2 {
+        margin: 0px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .sign-up button{
+        width: fit-content;
+        padding-inline: 8px;
+    }
+    .header h6 {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0px;
+    }
+    .info-text h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .info-text h2{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .info{
+        gap: 8px;
+    }
+    .info-text{
+        text-align: center;
+       width: 100%;
+       gap: 1px;
+       order: 1;
+    }
+    .info-img{
+        width: 100%;
+        order: 2;
+    }
+    .sign-up{
+        gap: 16px;
+        
+    }
+}

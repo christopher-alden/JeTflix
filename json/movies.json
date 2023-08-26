@@ -1,0 +1,661 @@
+{
+  "episodePlaceholder": {
+    "jumbo-episode": [
+      {
+        "episodeTitle": "XO",
+        "duration": "26m",
+        "episodeDescription": "Yearning to feel closer to her late mother and surprise her long-distance boyfriend, Kitty sets her sights on attending a prestigious school in Seoul.",
+        "episodeImage": "../asset/xo-1.jpg"
+      },
+
+      {
+        "episodeTitle": "WTF",
+        "duration": "24m",
+        "episodeDescription": "A jet-lagged Kitty can't wait to see Dae, but their long-awaited reunion goes awry due to dormitory complications and the fallout from a viral video.",
+        "episodeImage": "../asset/xo-2.jpg"
+      },
+      {
+        "episodeTitle": "KISS",
+        "duration": "30m",
+        "episodeDescription": "Dae experiences conflicting emotions over a sudden change of plans as Kitty deals with her own tangled feelings and an unfortunate new nickname.",
+        "episodeImage": "../asset/xo-3.jpg"
+      },
+      {
+        "episodeTitle": "TGIF",
+        "duration": "24m",
+        "episodeDescription": "Kitty joins Q's outdoor clib to connect with Dae away from school, but a clue about her mom soon sends her on a fact-finding -- and matchmaking -- mission.",
+        "episodeImage": "../asset/xo-4.jpg"
+      },
+      {
+        "episodeTitle": "TBH",
+        "duration": "29m",
+        "episodeDescription": "With no plans for the Chuseok holiday, Kitty attempts to prepare a special feast for other students on campus with help from an unlikely source.",
+        "episodeImage": "../asset/xo-5.jpg"
+      },
+      {
+        "episodeTitle": "BYOB",
+        "duration": "29m",
+        "episodeDescription": "Drama erupts and romantic connections emerge at Min Ho's swanky party, where a determined Kitty intends to work through her feelings about Dae.",
+        "episodeImage": "../asset/xo-6.jpg"
+      },
+      {
+        "episodeTitle": "TIL",
+        "duration": "29m",
+        "episodeDescription": "Tensions turn into revelations during a Saturday detention session after Kitty reluctantly agrees to help Yuri figure out what Principal Jina is hiding.",
+        "episodeImage": "../asset/xo-7.jpg"
+      },
+      {
+        "episodeTitle": "LFG",
+        "duration": "29m",
+        "episodeDescription": "A School trip gives Dae a chance to regain Kitty's as Yuri opens up about Juliana, Florian confides in Q, and Min Ho makes a relationship decision.",
+        "episodeImage": "../asset/xo-8.jpg"
+      },
+      {
+        "episodeTitle": "SNAFU",
+        "duration": "34m",
+        "episodeDescription": "With finals approaching, Kitty leans on her friends for extra help, but tempers flare at KISS and beyond amid bombshells, betrayals and blazing fights.",
+        "episodeImage": "../asset/xo-9.jpg"
+      },
+      {
+        "episodeTitle": "OTP",
+        "duration": "29m",
+        "episodeDescription": "Final grades, class rangkings and complicated truths cause emotions to run high as Kitty takes a stand with her future at KISS hanging in the balance.",
+        "episodeImage": "../asset/xo-10.jpg"
+      }
+    ],
+    "episodes": [
+      {
+        "episodeTitle": "Episode 1",
+        "duration": "50m",
+        "episodeDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla diam in arcu ultrices, nec ultrices arcu feugiat.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 2",
+        "duration": "45m",
+        "episodeDescription": "Nunc interdum sem non enim rhoncus ultricies. Nulla facilisi. Vestibulum sagittis iaculis erat, eu tempus dolor facilisis sed.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 3",
+        "duration": "55m",
+        "episodeDescription": "Aliquam malesuada elit sit amet magna consequat fringilla. Curabitur et purus at arcu euismod aliquet.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 4",
+        "duration": "40m",
+        "episodeDescription": "Fusce finibus efficitur justo vitae feugiat. In pretium enim vel dui elementum, id gravida odio interdum.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 5",
+        "duration": "50m",
+        "episodeDescription": "Sed lobortis nunc non enim feugiat, eu iaculis nunc elementum. Proin eu pellentesque ex, sit amet condimentum justo.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 6",
+        "duration": "45m",
+        "episodeDescription": "Vivamus fermentum tellus nunc, id maximus risus rutrum sit amet. Aliquam ut iaculis dui.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 7",
+        "duration": "55m",
+        "episodeDescription": "Donec pretium elit et sem efficitur, sed rutrum ligula ultricies. Quisque ullamcorper faucibus massa, sit amet tempor orci lacinia in.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 8",
+        "duration": "40m",
+        "episodeDescription": "Nam at semper justo. Maecenas vitae ex sed urna volutpat malesuada eu a leo.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 9",
+        "duration": "50m",
+        "episodeDescription": "Nullam viverra auctor mi. Aliquam ut tellus pretium, faucibus metus nec, varius erat.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 10",
+        "duration": "45m",
+        "episodeDescription": "Cras sed ultricies tellus. Proin dignissim congue congue. Etiam consequat accumsan sapien, eu placerat augue lobortis sed.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 11",
+        "duration": "55m",
+        "episodeDescription": "Suspendisse a mi tincidunt, congue urna in, lobortis arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        "episodeImage": "../asset/placeholder.jpg"
+      },
+      {
+        "episodeTitle": "Episode 12",
+        "duration": "40m",
+        "episodeDescription": "Pellentesque auctor sagittis nisl. Maecenas eu lacinia mauris, sed hendrerit mauris. Integer et enim id urna efficitur euismod.",
+        "episodeImage": "../asset/placeholder.jpg"
+      }
+    ]
+  },
+  "movies": {
+    "jumbo": {
+      "id": "CA030",
+      "title": "XO. KITTY",
+      "description": "A young woman named Kitty Song Covey moves to Seoul to attend school and reunite with her long-distance boyfriend. However, she soon finds herself caught up in a web of love, friendship, and betrayal.",
+      "image": "https://m.media-amazon.com/images/M/MV5BOThkNDM0MTYtZThiOC00NzgzLWFlMzItMzFmNjJkYmE5NmJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+      "cast": ["Anna Cathcart", "Choi Min-yeong", "Park Ji-hyun"],
+      "genre": ["Comedy", "Drama", "Romance"],
+      "creator": "Jenny Han",
+      "episodes": 10,
+      "score": 79,
+      "year": 2023,
+      "bannerImage": "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQTth-qJ86QkFm7ICaRQXGMn8n9TjzbMNm-Q-PTUM24Hh6wT7gsTDCPS3FCj7XDH86RgKiAERSAuZRbetfSWiWmZuc4gBfeZnW_3fFNhyUJZy-ECCVh4AeHLok-ZrGEAXk5iWQp5sEJvkBqp-cS-yaSXPRuc.jpg?r=2d5"
+    },
+    "top-ten": [
+      {
+        "id": "CA001",
+        "title": "Business Proposal",
+        "description": "A young woman goes on a blind date with a wealthy CEO, only to discover that he is her company's biggest client. The two agree to keep their relationship a secret, but things quickly become complicated.",
+        "image": "https://images.justwatch.com/poster/269914828/s718/a-business-proposal.%7Bformat%7D",
+        "cast": ["Ahn Hyo-seop", "Kim Se-jeong", "Kim Min-kyu", "Seol In-ah"],
+        "genre": ["Drama", "Romance"],
+        "creator": "Director X",
+        "episodes": 12,
+        "score": 90,
+        "year": 2022,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA002",
+        "title": "Hometown Cha-Cha-Cha",
+        "description": "A dentist from Seoul moves to a seaside town and meets a handyman who helps her adjust to her new life.",
+        "image": "https://asianwiki.com/images/1/1c/Hometown_Cha-Cha-Cha-p2.jpg",
+        "cast": ["Shin Min-a", "Kim Seon-ho", "Lee Sang-yi"],
+        "genre": ["Drama", "Romance"],
+        "creator": "Shin Ha-eun",
+        "episodes": 16,
+        "score": 87,
+        "year": 2021,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA003",
+        "title": "The Good Bad Mother",
+        "description": "A single mother raises her son with the goal of keeping him from living a life as difficult as her own. However, a tragic accident leaves her son with the mind of a child, forcing her to confront her own past and learn to love her son again.",
+        "image": "https://editorial.femaledaily.com/wp-content/uploads/2023/05/ALASAN-KAMU-HARUS-NONTON-THE-GOOD-BAD-MOTHER-DI-NETFLIX-1.jpeg",
+        "cast": ["Ra Mi-ran", "Lee Do-hyun", "Ahn Eun-jin"],
+        "genre": ["Family", "Slice of life", "Drama"],
+        "creator": "Sim Na-yeon",
+        "episodes": 12,
+        "score": 89,
+        "year": 2023,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA004",
+        "title": "Dr. Romantic",
+        "description": "Dr. Romantic is a South Korean medical drama television series that aired on SBS from November 7, 2016 to January 16, 2017. The series stars Han Suk-kyu, Yoo Yeon-seok, and Seo Hyun-jin. The series follows the story of a genius doctor who is known for his unorthodox methods and his ability to save lives.",
+        "image": "https://upload.wikimedia.org/wikipedia/id/7/7b/Romantic_Doctor_Teacher_Kim_Poster.jpg",
+        "cast": ["Han Suk-kyu", "Yoo Yeon-seok", "Seo Hyun-jin"],
+        "genre": ["Drama", "Romance"],
+        "creator": "Lee Byung-hun",
+        "episodes": 16,
+        "score": 85,
+        "year": 2016,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA005",
+        "title": "Oshi No Ko",
+        "description": "A young doctor named Gorou Amemiya is a big fan of the idol Ai Hoshino. When she shows up at his hospital pregnant, he is beyond bewildered. Gorou promises her a safe delivery, but an encounter with a mysterious figure results in his untimely death—or so he thought. Gorou is reborn as Ai's child, and he soon finds himself caught up in the world of show business.",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTgxZjNlZWQtYjg1OS00NzY2LTkyZTctZDBkY2Y2ZWEyMjNlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg",
+        "cast": ["Rie Takahashi", "Takeo Otsuka", "Yurie Igoma"],
+        "genre": ["Drama", "Mystery", "Supernatural"],
+        "creator": "Aka Akasaka",
+        "episodes": 12,
+        "score": 97,
+        "year": 2023,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA006",
+        "title": "The Tale Of The Nine Tailed",
+        "description": "A nine-tailed fox who has lived for centuries falls in love with a human woman.",
+        "image": "https://occ-0-2954-2568.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABUp10M1wKMdEpTz7lh8P19Su_WzGNUHkY_VVrlMxQMp3OBdwFE4yeqfM4JI4RqxuvKF7ByX2da34G7AM5T4g2yI7Ma9O.jpg",
+        "cast": ["Lee Dong-wook", "Jo Bo-ah", "Kim Bum"],
+        "genre": ["Drama", "Fantasy", "Romance"],
+        "creator": "Kang Shin-Hyo",
+        "episodes": 16,
+        "score": 82,
+        "year": 2020,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA007",
+        "title": "Partners for Justice",
+        "description": "A forensic doctor and a prosecutor team up to solve a series of murders.",
+        "image": "https://occ-0-299-300.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABWzYkPSmOsKFqYOwPLKdhLx_Kr16p09_3c9B55H0-mxT8wv0Mo6JZmfBslf0rlrtL7Lar_OlW0OS5qxy4ESeWxefrU3q.jpg",
+        "cast": ["Jung Jae-young", "Jung Yoo-mi"],
+        "genre": ["Mystery", "Crime"],
+        "creator": "No Do-cheol",
+        "episodes": 32,
+        "score": 95,
+        "year": 2018,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA008",
+        "title": "Nevertheless",
+        "description": "An uncertain romance begins between Yoo Na-bi, a heartbroken woman who no longer believes in love, and Park Jae-eon, a flirtatious man who does not want to commit to a relationship.",
+        "image": "https://asianwiki.com/images/d/d9/Nevertheless-mp001.jpeg",
+        "cast": ["Han So-hee", "Song Kang"],
+        "genre": ["Drama", "Romance"],
+        "creator": "Kim Ga-Ram",
+        "episodes": 10,
+        "score": 74,
+        "year": 2021,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA009",
+        "title": "My Name",
+        "description": "A woman who joins a crime syndicate to avenge her father's death, only to discover that she has been working for the very people who killed him.",
+        "image": "https://asianwiki.com/images/a/a7/My_Name-p2.jpg",
+        "cast": ["Han So-hee", "Park Hee-soon"],
+        "genre": ["Action", "Drama"],
+        "creator": "Kim Jin-min",
+        "episodes": 8,
+        "score": 79,
+        "year": 2021,
+        "bannerImage": "../asset/placeholder.jpg"
+      }
+    ],
+    "romance": [
+      {
+        "id": "CA010",
+        "title": "Twenty-Five Twenty-One",
+        "description": "A love story between a fencing prodigy and a man who loses his dream.",
+        "image": "https://m.media-amazon.com/images/M/MV5BNWYzODM2NGEtOWUyZi00MmEyLWFmYmItZDI3NDYzMGI0NWI2XkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg",
+        "cast": ["Kim Tae-ri", "Nam Joo-hyuk"],
+        "genre": ["Drama", "Romance"],
+        "creator": "Lee Jong-hyo",
+        "episodes": 16,
+        "score": 88,
+        "year": 2022,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA011",
+        "title": "It's Okay to Not Be Okay",
+        "description": "A story about a man employed in a psychiatric ward and a woman, with an antisocial personality disorder, who is a popular writer of children's books.",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTk0Nzk5ZWYtYTNlZi00YjBjLWJhYjctMWMwMmYyMDA5ZjJmXkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_.jpg",
+        "cast": ["Kim Soo-hyun", "Seo Ye-ji", "Oh Jung-se", "Park Gyu-young"],
+        "genre": ["Drama", "Romance"],
+        "creator": "Park Shin-woo",
+        "episodes": 16,
+        "score": 89,
+        "year": 2020,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA012",
+        "title": "Our Beloved Summer",
+        "description": "A former couple who broke up after a bitter fight reunite 10 years later when they are forced to film a documentary together.",
+        "image": "https://f.ptcdn.info/178/076/000/r6bec5k2fbHhybn9OaZ-o.jpg",
+        "cast": ["Choi Woo-shik", "Kim Da-mi"],
+        "genre": ["Romance", "Comedy"],
+        "creator": "Kim Yoon-jin",
+        "episodes": 16,
+        "score": 88,
+        "year": 2022,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA013",
+        "title": "Hotel Del Luna",
+        "image": "https://occ-0-2794-2218.1.nflxso.net/dnm/api/v6/Da_vleYcahiCE7JMYt8LJRyoenc/AAAABRRjoP84uTG5kvmeCF2dDGgHBCVV7m53jACekdBaXQiCvUe84byqAthjQiDei5Nhn3stT_I7TRt9O76zkmUGB5OtQ1fc.jpg",
+        "description": "A hotel that caters to ghosts, run by a beautiful but cursed woman and a young man who is cursed to work there.",
+        "cast": ["IU", "Yeo Jin-goo"],
+        "genre": ["Drama", "Fantasy"],
+        "creator": "Hong sisters",
+        "episodes": 16,
+        "score": 84,
+        "year": 2019,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA014",
+        "title": "While You Were Sleeping",
+        "image": "https://images.justwatch.com/poster/164935656/s718/while-you-were-sleeping.%7Bformat%7D",
+        "description": "A woman who can see the future and a prosecutor with a strong sense of justice team up to prevent crimes from happening.",
+        "cast": ["Bae Suzy", "Lee Jong-suk", "Jung Hae-in"],
+        "genre": ["Drama", "Fantasy"],
+        "creator": "Park Hye-ryeon",
+        "episodes": 32,
+        "score": 83,
+        "year": 2017,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA015",
+        "title": "Goblin",
+        "image": "https://m.media-amazon.com/images/M/MV5BZTg0YmQxZTgtMzgwYi00N2NhLTlkMWYtOWYwNDA1YjkxMmViL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzE4MDkyNTA@._V1_.jpg",
+        "description": "A goblin who has been cursed with immortality and a grim reaper who has lost his memories team up to find the goblin's bride, who can break the curse.",
+        "cast": ["Gong Yoo", "Kim Go-eun", "Lee Dong-wook", "Yoo In-na"],
+        "genre": ["Drama", "Fantasy"],
+        "creator": "Kim Eun-sook",
+        "episodes": 16,
+        "score": 87,
+        "year": 2016,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA016",
+        "title": "Youth of May",
+        "image": "https://s3.theasianparent.com/tap-assets-prod/wp-content/uploads/sites/25/2021/06/messageImage_1623718645769.jpeg",
+        "description": "A love story set against the backdrop of the Gwangju Uprising in 1980.",
+        "cast": ["Lee Do-hyun", "Go Min-si"],
+        "genre": ["Drama", "Romance"],
+        "creator": "Lee Kyung-mi",
+        "episodes": 12,
+        "score": 85,
+        "year": 2021,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA017",
+        "title": "Your Lie in April",
+        "image": "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABWErHYI80kXKXNhyI72_BB-XZraL15LXuvb6txwy_l9QvERaLIqU6piOxMcl3zLGnKPfpUgKl3_-vvSwfJkto-0eCOz1HNDBig.jpg",
+        "description": "A story about a young pianist who loses his ability to play after a traumatic event and a girl who helps him find his way back to music.",
+        "cast": ["Kosei Arima", "Kaori Miyazono", "Tsubaki Sawabe", "Ryuji Izawa"],
+        "genre": ["Drama", "Romance", "Music"],
+        "creator": "Naoshi Arakawa",
+        "episodes": 22,
+        "score": 8.6,
+        "year": 2014,
+        "bannerImage": "../asset/placeholder.jpg"
+      }
+    ],
+    "sliceoflife": [
+      {
+        "id": "CA001",
+        "title": "Business Proposal",
+        "description": "A young woman goes on a blind date with a wealthy CEO, only to discover that he is her company's biggest client. The two agree to keep their relationship a secret, but things quickly become complicated.",
+        "image": "https://images.justwatch.com/poster/269914828/s718/a-business-proposal.%7Bformat%7D",
+        "cast": ["Ahn Hyo-seop", "Kim Se-jeong", "Kim Min-kyu", "Seol In-ah"],
+        "genre": ["Drama", "Romance"],
+        "creator": "Director X",
+        "episodes": 12,
+        "score": 90,
+        "year": 2022,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA018",
+        "title": "Hospital Playlist",
+        "image": "https://awsimages.detik.net.id/community/media/visual/2021/06/04/hospital-playlist-2-6_34.jpeg?w=375",
+        "description": "A heartwarming story about five doctors who are best friends and their lives at work and at home.",
+        "cast": ["Jo Jung-suk", "Yoo Yeon-seok", "Jung Kyung-ho", "Kim Dae-myung", "Lee Ik-joon"],
+        "genre": ["Drama", "Medical"],
+        "creator": "Shin Won-ho",
+        "episodes": 20,
+        "score": 88,
+        "year": 2020,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA019",
+        "title": "K-On!",
+        "image": "https://i2.netflixmovies.com/dibsl9ebc/image/upload/w_600,h_891,c_lfill,g_north/tbo5hhzmqqrx18nuesvt.jpg",
+        "description": "A slice-of-life anime about a high school girl who joins the light music club and discovers her love of music.",
+        "cast": ["Yui Hirasawa", "Mio Akiyama", "Ritsu Tainaka", "Azusa Nakano", "Tsumugi Kotobuki"],
+        "genre": ["Comedy", "Music"],
+        "creator": "Naoko Yamada",
+        "episodes": 26,
+        "score": 83,
+        "year": 2009,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA020",
+        "title": "Vincenzo",
+        "image": "https://www.scrolldroll.com/wp-content/uploads/2022/04/Vincenzo-best-hindi-dubbed-korean-dramas-on-netflix.jpeg",
+        "description": "A Korean-Italian mafia consigliere named Vincenzo Cassano returns to South Korea after his boss is killed. He teams up with a lawyer to take down a corrupt corporation.",
+        "cast": ["Song Joong-ki", "Jeon Yeo-bin", "Ok Taec-yeon", "Kim Yeo-jin"],
+        "genre": ["Action", "Comedy", "Drama"],
+        "creator": "Kim Hee-won",
+        "episodes": 20,
+        "score": 87,
+        "year": 2021,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA021",
+        "title": "Summer Strike",
+        "image": "https://m.media-amazon.com/images/M/MV5BNDA1OTE2MDUtYjhkYS00ZmQ4LWEyNjItZDAwZGVmZTRiYTNkXkEyXkFqcGdeQXVyMjQ2OTU4Mjg@._V1_FMjpg_UX1000_.jpg",
+        "description": "A group of friends go on a summer vacation to a beach house, only to discover that they are not alone.",
+        "cast": ["Sooyoung", "Lee Jun-young", "Kim Dong-hyun", "Lee Se-young"],
+        "genre": ["Horror", "Thriller"],
+        "creator": "Kim Tae-yoon",
+        "episodes": 10,
+        "score": 75,
+        "year": 2022,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA022",
+        "title": "Crash Course In Romance",
+        "image": "https://occ-0-1174-299.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABXBEbCAl1k42SCJh-O0B47aKU5-hPPK2Nnc090pKhM0mk4Pq5jicd-COFpVDWZDi8jbNiG-4Ec5hRi1AqqfdlKa1Qtazh8zHKhzpf8KT_PyJllmRw18FEnLuWgiyhE5_bmsYmA.jpg",
+        "description": "A young woman who has never been in love takes a crash course in romance from her best friend.",
+        "cast": ["Kim Go-eun", "Jinyoung", "Kim Min-kyu", "Park Ji-hyun"],
+        "genre": ["Comedy", "Romance"],
+        "creator": "Park Shin-woo",
+        "episodes": 16,
+        "score": 78,
+        "year": 2022,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA023",
+        "title": "Reply 1988",
+        "image": "https://occ-0-1167-300.1.nflxso.net/dnm/api/v6/Da_vleYcahiCE7JMYt8LJRyoenc/AAAABWzZLG4l3xZYakeLnQFG6fHuKufA7TsSn4m3CeBoLvT7qFRdSHdt1NZuVODb9HSus2F2hiur_UazDePL4Sr37hChSOlk.jpg",
+        "description": "A coming-of-age story about a group of friends who grow up together in Seoul in the 1980s.",
+        "cast": ["Lee Dong-hwi", "Go Ara", "Hyeri", "Park Bo-gum", "Ryu Jun-yeol"],
+        "genre": ["Comedy", "Drama"],
+        "creator": "Lee Woo-jung",
+        "episodes": 21,
+        "score": 89,
+        "year": 2015,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA024",
+        "title": "My Liberation Notes",
+        "image": "https://occ-0-1007-1009.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABTv0LOlE3Eaa79o8VsQogbLtrIMEyLRFGwgMYxxArAH0ubemIQo-VV4pIElrJ2-C_Hw_gqt9Obb21R8uV3MKKEgFZCPXwfq_frutgWigURJgMOsoI9T3yTyTY4AA_g.jpg",
+        "description": "Three siblings and their neighbor try to find their own versions of liberation from the everyday life that makes them feel trapped.",
+        "cast": ["Kim Ji-won", "Lee Min-ki", "Son Seok-koo", "Lee El"],
+        "genre": ["Comedy", "Drama"],
+        "creator": "Park Hae-young",
+        "episodes": 16,
+        "score": 86,
+        "year": 2022,
+        "bannerImage": "../asset/placeholder.jpg"
+      }
+    ],
+    "crime": [
+      {
+        "id": "CA020",
+        "title": "Vincenzo",
+        "image": "https://www.scrolldroll.com/wp-content/uploads/2022/04/Vincenzo-best-hindi-dubbed-korean-dramas-on-netflix.jpeg",
+        "description": "A Korean-Italian mafia consigliere named Vincenzo Cassano returns to South Korea after his boss is killed. He teams up with a lawyer to take down a corrupt corporation.",
+        "cast": ["Song Joong-ki", "Jeon Yeo-bin", "Ok Taec-yeon", "Kim Yeo-jin"],
+        "genre": ["Action", "Comedy", "Drama"],
+        "creator": "Kim Hee-won",
+        "episodes": 20,
+        "score": 87,
+        "year": 2021,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA007",
+        "title": "Partners for Justice",
+        "description": "A forensic doctor and a prosecutor team up to solve a series of murders.",
+        "image": "https://occ-0-299-300.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABWzYkPSmOsKFqYOwPLKdhLx_Kr16p09_3c9B55H0-mxT8wv0Mo6JZmfBslf0rlrtL7Lar_OlW0OS5qxy4ESeWxefrU3q.jpg",
+        "cast": ["Jung Jae-young", "Jung Yoo-mi"],
+        "genre": ["Mystery", "Crime"],
+        "creator": "No Do-cheol",
+        "episodes": 32,
+        "score": 95,
+        "year": 2018,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA009",
+        "title": "My Name",
+        "description": "A woman who joins a crime syndicate to avenge her father's death, only to discover that she has been working for the very people who killed him.",
+        "image": "https://asianwiki.com/images/a/a7/My_Name-p2.jpg",
+        "cast": ["Han So-hee", "Park Hee-soon"],
+        "genre": ["Action", "Drama"],
+        "creator": "Kim Jin-min",
+        "episodes": 8,
+        "score": 79,
+        "year": 2021,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA025",
+        "title": "The Glory",
+        "image": "https://cdn1-production-images-kly.akamaized.net/dFl82Pcb2uRy28M5n_L2bAlEd2k=/1200x1200/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/4282263/original/082696700_1672899483-318762197_2304540586390240_8939058959014282581_n.jpg",
+        "description": "A woman seeks revenge on the high school teacher who sexually assaulted her and ruined her life.",
+        "cast": ["Kim Hee-sun", "Park Sung-hoon", "Nam Gyu-ri"],
+        "genre": ["Action", "Drama"],
+        "creator": "Kim Ji-soo",
+        "episodes": 12,
+        "score": 82,
+        "year": 2022,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA026",
+        "title": "Money Heist",
+        "image": "https://resizing.flixster.com/RDlGcNaA0dIfEJku6xO2jvlnZu8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNDZlNzMzZDUtZmQ4My00N2E5LWEwNzgtZTg3ZmZlNzMyMGJiLmpwZw==",
+        "description": "A group of thieves take hostages and lock themselves in the Royal Mint of Spain as a heist is being carried out.",
+        "cast": ["Álvaro Morte", "Úrsula Corberó", "Itziar Ituño", "Pedro Alonso", "Jaime Lorente"],
+        "genre": ["Action", "Crime", "Drama"],
+        "creator": "Álex Pina",
+        "episodes": 55,
+        "score": 84,
+        "year": 2017,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA027",
+        "title": "Vagabond",
+        "image": "https://scontent-cgk1-1.xx.fbcdn.net/v/t1.6435-9/99285162_2969561103128214_1414443691052892160_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=sNPjLYnRUg4AX8klZYL&_nc_ht=scontent-cgk1-1.xx&oh=00_AfCmMolIqmUR7NcKnIWI3kKoSdB0JQSVwA8m5fegv0k5YA&oe=64994D2F",
+        "description": "A stuntman investigates the cause of a plane crash that killed his niece, only to uncover a government conspiracy.",
+        "cast": ["Lee Seung-gi", "Suzy", "Shin Sung-rok"],
+        "genre": ["Action", "Drama"],
+        "creator": "Kim Hee-won",
+        "episodes": 16,
+        "score": 79,
+        "year": 2019,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA028",
+        "title": "Reborn Rich",
+        "image": "https://www.viu.com/ott/id/articles/wp-content/uploads/2022/11/poster-karakter-song-joong-ki-reborn-rich-sub-indo-viu.jpg",
+        "description": "A man who was born into poverty and raised in an orphanage suddenly finds himself inheriting a large fortune from a long-lost grandfather.",
+        "cast": ["Song Joong-ki", "Kim Ji-soo", "Shin Hyun-bin"],
+        "genre": ["Comedy", "Drama"],
+        "creator": "Kim Hyung-seok",
+        "episodes": 16,
+        "score": 82,
+        "year": 2022,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA029",
+        "title": "Lupin",
+        "image": "https://bacaterus.com/wp-content/uploads/2021/02/Lupin-Season-1-Movie-Poster_.webp",
+        "description": "A modern-day thief who steals from the rich and gives to the poor, inspired by the adventures of Arsène Lupin, a gentleman thief from French literature.",
+        "cast": ["Omar Sy", "Ludivine Sagnier", "Herve Pierre"],
+        "genre": ["Action", "Crime", "Drama"],
+        "creator": "George Kay",
+        "episodes": 10,
+        "score": 82,
+        "year": 2021,
+        "bannerImage": "../asset/placeholder.jpg"
+      }
+    ],
+    "new-and-popular": [
+      {
+        "id": "CA005",
+        "title": "Oshi No Ko",
+        "description": "A young doctor named Gorou Amemiya is a big fan of the idol Ai Hoshino. When she shows up at his hospital pregnant, he is beyond bewildered. Gorou promises her a safe delivery, but an encounter with a mysterious figure results in his untimely death—or so he thought. Gorou is reborn as Ai's child, and he soon finds himself caught up in the world of show business.",
+        "image": "https://m.media-amazon.com/images/M/MV5BYTgxZjNlZWQtYjg1OS00NzY2LTkyZTctZDBkY2Y2ZWEyMjNlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg",
+        "cast": ["Rie Takahashi", "Takeo Otsuka", "Yurie Igoma"],
+        "genre": ["Drama", "Mystery", "Supernatural"],
+        "creator": "Aka Akasaka",
+        "episodes": 12,
+        "score": 97,
+        "year": 2023,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA030",
+        "title": "XO. KITTY",
+        "description": "A young woman named Kitty Song Covey moves to Seoul to attend school and reunite with her long-distance boyfriend. However, she soon finds herself caught up in a web of love, friendship, and betrayal.",
+        "image": "https://m.media-amazon.com/images/M/MV5BOThkNDM0MTYtZThiOC00NzgzLWFlMzItMzFmNjJkYmE5NmJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "cast": ["Anna Cathcart", "Choi Min-yeong", "Park Ji-hyun"],
+        "genre": ["Comedy", "Drama", "Romance"],
+        "creator": "Jenny Han",
+        "episodes": 10,
+        "score": 79,
+        "year": 2023,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA031",
+        "title": "Miracle In Cell no.7",
+        "description": "This warmhearted comedy relates the story of Yong-gu, a mentally challanged father who's wrongly jailed for the murder of a young girl.",
+        "image": "https://occ-0-299-300.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABWzYkPSmOsKFqYOwPLKdhLx_Kr16p09_3c9B55H0-mxT8wv0Mo6JZmfBslf0rlrtL7Lar_OlW0OS5qxy4ESeWxefrU3q.jpg",
+        "cast": ["Ryu Seung-ryong", "Park Shin-hye", "So-Won"],
+        "genre": ["Korean", "Drama", "Social Issue"],
+        "creator": "Christopher Alden",
+        "episodes": 1,
+        "score": 95,
+        "year": 2023,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+
+      {
+        "id": "CA003",
+        "title": "The Good Bad Mother",
+        "description": "A single mother raises her son with the goal of keeping him from living a life as difficult as her own. However, a tragic accident leaves her son with the mind of a child, forcing her to confront her own past and learn to love her son again.",
+        "image": "https://editorial.femaledaily.com/wp-content/uploads/2023/05/ALASAN-KAMU-HARUS-NONTON-THE-GOOD-BAD-MOTHER-DI-NETFLIX-1.jpeg",
+        "cast": ["Ra Mi-ran", "Lee Do-hyun", "Ahn Eun-jin"],
+        "genre": ["Family", "Slice of life", "Drama"],
+        "creator": "Sim Na-yeon",
+        "episodes": 12,
+        "score": 89,
+        "year": 2023,
+        "bannerImage": "../asset/placeholder.jpg"
+      },
+      {
+        "id": "CA004",
+        "title": "Dr. Romantic",
+        "description": "Dr. Romantic is a South Korean medical drama television series that aired on SBS from November 7, 2016 to January 16, 2017. The series stars Han Suk-kyu, Yoo Yeon-seok, and Seo Hyun-jin. The series follows the story of a genius doctor who is known for his unorthodox methods and his ability to save lives.",
+        "image": "https://upload.wikimedia.org/wikipedia/id/7/7b/Romantic_Doctor_Teacher_Kim_Poster.jpg",
+        "cast": ["Han Suk-kyu", "Yoo Yeon-seok", "Seo Hyun-jin"],
+        "genre": ["Drama", "Romance"],
+        "creator": "Lee Byung-hun",
+        "episodes": 16,
+        "score": 85,
+        "year": 2016,
+        "bannerImage": "../asset/placeholder.jpg"
+      }
+    ]
+  }
+}

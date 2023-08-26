@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/utility.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css//navbar.css">
+    <script defer src="../js/navbar.js"></script>
+    <script defer src="../js/signup.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="navbar" class="nav-grad">
+        <div class="nav-main">
+            <div class="nav-left">
+                <img id="burger" class="hamburger" width="30" height="30"
+                    src="https://img.icons8.com/ios-glyphs/30/fafafa/menu--v1.png" alt="menu--v1" />
+                <h1>JeTFliX</h1>
+            </div>
+            <div class="nav-mid">
+                <a href="./home.html" class="nav-btn">Home</a>
+                <a href="./movies.html" class="nav-btn">Movies</a>
+                <a href="./new-and-popular.html" class="nav-btn">New & Popular</a>
+            </div>
+            <div class="nav-right">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button id="sign-up" class="profile">Sign Up</button>
+            </div>
+        </div>
+        <div id="drop" class="dropdown">
+            <a href="./home.html" class="nav-btn">Home</a>
+            <a href="./movies.html" class="nav-btn">Movies</a>
+            <a href="./new-and-popular.html" class="nav-btn">New & Popular</a>
+        </div>
+    </nav>
+    <div class="h-full w-full absolute z-20  "></div>
+    <div class="img-ctr">
+        <img src="../asset/placeholder.jpg" alt="">
+    </div>
+    <div class="nice screen-container">
+        <div class="signup-ctr glassmorphism z-90 flex flex-col gap-8">
+            <div class="text-4xl font-bold">Sign up</div>
+            <div>
+                <form class="flex flex-col gap-4 ipt-group gray">
+                    <input class="" type="text" id="name" placeholder="Fullname">
+                    <input class="" type="password" id="pw" placeholder="Password">
+                    <input class="" type="password" id="confirm-pw" placeholder="Confirm Password">
+                    <input class="" type="date" id="date">
+                    <select id="gender">
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                      </select>
+                    <div class="flex gap-4 items-center gray">
+                        <input class="" type="checkbox" id="tnc" text="I agree to the terms & conditions">
+                        <label for="checkbox">I agree to the Terms & Conditions applied</label>
+                    </div>
+                    <div id="error-msg" class="error"></div>
+                    <button id="submit" class="submit-btn opacity-trans" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

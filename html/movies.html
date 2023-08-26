@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/utility.css">
+    <link rel="stylesheet" href="../css/movie.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="https://kit.fontawesome.com/674b9c7215.js" crossorigin="anonymous"></script>
+    <script defer src="../js/navbar.js"></script>
+    <script defer src="../js/movieread.js"></script>
+    <title>JeTFliX</title>
+</head>
+
+<body>
+    <nav id="navbar" class="nav-grad">
+        <div class="nav-main">
+            <div class="nav-left">
+                <img id="burger" class="hamburger" width="30" height="30"
+                    src="https://img.icons8.com/ios-glyphs/30/fafafa/menu--v1.png" alt="menu--v1" />
+                <h1>JeTFliX</h1>
+            </div>
+            <div class="nav-mid">
+                <a href="./home.html" class="nav-btn">Home</a>
+                <a href="./movies.html" class="opacity-100">Movies</a>
+                <a href="./new-and-popular.html" class="nav-btn">New & Popular</a>
+            </div>
+            <div class="nav-right">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button id="sign-up" class="profile">Sign Up</button>
+            </div>
+        </div>
+        <div id="drop" class="dropdown">
+            <a href="./home.html" class="nav-btn">Home</a>
+            <a href="./movies.html" class="opacity-100">Movies</a>
+            <a href="./new-and-popular.html" class="nav-btn">New & Popular</a>
+        </div>
+    </nav>
+    <div id="details"></div>
+    <div class="alden">
+        <div>
+            <div class="bg-grad"></div>
+            <video id="jumbotron" src="../asset/xokitty-trailer.mp4" autoplay muted loop></video>
+            <div class="jumbo-detail">
+                <div class="jumbo-title">XO. KITTY</div>
+                <div class="jumbo-desc line-clamp-2">
+                    A new love story unfolds when teen matchmaker Kitty reunites with
+                    her long-distance boyfriend at the same boarding school attended by
+                    her late mother
+                </div>
+                <div class="jumbo-btn-ctr">
+                    <button class="opacity-trans bg-text primary">
+                        <i class="fa-solid fa-play"></i>
+                        Watch Now
+                    </button>
+                    <button id="more-info-btn" class="opacity-trans bg-text-40 text">
+                        <i class="fa-solid fa-circle-info"></i>
+                        More Info
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="movie-strip">
+                    <h1 class="movie-header">Top 10 Movies This Week</h1>
+                    <div id="top-ten" class="movie-ctr"></div>
+                </div>
+                <div class="movie-strip">
+                    <h1 class="movie-header">Romance Movies To Cry</h1>
+                    <div id="romance" class="movie-ctr"></div>
+                </div>
+                <div class="movie-strip">
+                    <h1 class="movie-header">Slice Of Peak</h1>
+                    <div id="sol" class="movie-ctr"></div>
+                </div>
+                <div class="movie-strip">
+                    <h1 class="movie-header">Criminal Shows</h1>
+                    <div id="crime" class="movie-ctr"></div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <footer>
+        <h1 class="accent">JeTFliX</h1>
+        <div class="flex gap-4">
+            <a>Alden</a>
+            <a>Contact Us</a>
+            <a>About Us</a>
+        </div>
+    </footer>
+</body>
+
+</html>

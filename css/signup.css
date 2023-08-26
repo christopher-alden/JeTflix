@@ -1,0 +1,90 @@
+.ontol {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.screen-container {
+    top: 0;
+}
+.nice{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    z-index: 500;
+
+}
+.img-ctr{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+.img-ctr img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.3;
+}
+.signup-ctr {
+    width: 25%;
+    height: 70vh;
+    margin: 0px;
+    padding: 32px;
+    min-width: 300px
+}
+
+.glassmorphism {
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    
+}
+.err-msg{
+   color: red;
+}
+input {
+    border-radius: 16px;
+    background-color: transparent;
+    color: white;
+    border: solid 1px rgb(84, 84, 84);
+    padding: 16px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ipt-group input:focus {
+    border: 1px rgb(138, 138, 138) solid
+}
+
+.submit-btn{
+    background-color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 16px;
+    outline: none;
+    padding: 16px;
+    color: white;
+}
+
+.error{
+    color: red;
+}
+
+select{
+    border-radius: 16px;
+    background-color: transparent;
+    color: white;
+    border: solid 1px rgb(84, 84, 84);
+    padding: 16px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}

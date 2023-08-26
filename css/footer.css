@@ -1,0 +1,19 @@
+footer{
+    position: relative;
+    height: 150px;
+    padding-inline: 5vw;
+    padding-block: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+}
+h1{
+    margin: 0px;
+}
+@media (max-width:768px) {
+    footer{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
