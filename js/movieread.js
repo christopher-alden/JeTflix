@@ -1,122 +1,72 @@
 fetch('../json/movies.json')
   .then((response) => response.json())
   .then((data) => {
-    const movies = data.movies['top-ten'];
-    const romanceMovies = data.movies['romance'];
-    const solMovies = data.movies['sliceoflife'];
-    const crimeMovies = data.movies['crime'];
+    // Mapping of category names to their respective DOM element IDs
+    const categories = {
+      'top-ten': 'top-ten',
+      'romance': 'romance',
+      'sliceoflife': 'sol',
+      'crime': 'crime'
+    };
+
+    // Function to create and append movie elements
+    const appendMovies = (movies, categoryId, eps, isTopTen = false) => {
+      const container = document.getElementById(categoryId);
+      movies.forEach((movie, index) => {
+        const movieDiv = document.createElement('div');
+        movieDiv.className = 'movie';
+        
+        const gradient = document.createElement('div');
+        gradient.className = isTopTen ? 'top-gradient' : 'gradient';
+
+        const image = document.createElement('img');
+        image.src = movie.image;
+        image.alt = movie.title;
+
+        movieDiv.appendChild(gradient);
+        movieDiv.appendChild(image);
+
+        if (isTopTen) {
+          const counter = document.createElement('span');
+          counter.className = 'counter';
+          counter.textContent = index + 1;
+          movieDiv.appendChild(counter);
+        } else {
+          const title = document.createElement('h1');
+          title.textContent = movie.title;
+          movieDiv.appendChild(title);
+        }
+
+        movieDiv.addEventListener('click', () => {
+          showDetails(movie, eps);
+        });
+
+        container.appendChild(movieDiv);
+      });
+    };
+
+    // Loop through each category and process movies
+    Object.entries(categories).forEach(([key, value]) => {
+      const movies = data.movies[key];
+      const eps = data.episodePlaceholder['episodes'];
+      const isTopTen = key === 'top-ten';
+      appendMovies(movies, value, eps, isTopTen);
+    });
+
+    // Handle jumbo movies separately since they have different details
     const jumboMovies = data.movies.jumbo;
     const jumboEps = data.episodePlaceholder['jumbo-episode'];
-    const eps = data.episodePlaceholder['episodes'];
-    const top10 = document.getElementById('top-ten');
-    const romance = document.getElementById('romance');
-    const sol = document.getElementById('sol');
-    const crime = document.getElementById('crime');
     const moreInfo = document.getElementById('more-info-btn');
     moreInfo.addEventListener('click', () => {
       console.log(jumboMovies);
       showDetails(jumboMovies, jumboEps);
     });
 
-    movies.forEach((movie, index) => {
-      const movieDiv = document.createElement('div');
-      movieDiv.className = 'movie';
-
-      const gradient = document.createElement('div');
-      gradient.className = 'top-gradient';
-
-      const image = document.createElement('img');
-      image.src = movie.image;
-      image.alt = movie.title;
-
-      const counter = document.createElement('span');
-      counter.className = 'counter';
-      counter.textContent = index + 1;
-
-      movieDiv.appendChild(gradient);
-      movieDiv.appendChild(image);
-      movieDiv.appendChild(counter);
-      movieDiv.addEventListener('click', () => {
-        showDetails(movie, eps);
-      });
-
-      top10.appendChild(movieDiv);
-    });
-
-    romanceMovies.forEach((movie) => {
-      const movieDiv = document.createElement('div');
-      movieDiv.className = 'movie';
-
-      const gradient = document.createElement('div');
-      gradient.className = 'gradient';
-
-      const image = document.createElement('img');
-      image.src = movie.image;
-      image.alt = movie.title;
-
-      const title = document.createElement('h1');
-      title.textContent = movie.title;
-
-      movieDiv.appendChild(gradient);
-      movieDiv.appendChild(image);
-      movieDiv.appendChild(title);
-      movieDiv.addEventListener('click', () => {
-        showDetails(movie, eps);
-      });
-
-      romance.appendChild(movieDiv);
-    });
-
-    solMovies.forEach((movie) => {
-      const movieDiv = document.createElement('div');
-      movieDiv.className = 'movie';
-
-      const gradient = document.createElement('div');
-      gradient.className = 'gradient';
-
-      const image = document.createElement('img');
-      image.src = movie.image;
-      image.alt = movie.title;
-
-      const title = document.createElement('h1');
-      title.textContent = movie.title;
-
-      movieDiv.appendChild(gradient);
-      movieDiv.appendChild(image);
-      movieDiv.appendChild(title);
-      movieDiv.addEventListener('click', () => {
-        showDetails(movie, eps);
-      });
-
-      sol.appendChild(movieDiv);
-    });
-
-    crimeMovies.forEach((movie) => {
-      const movieDiv = document.createElement('div');
-      movieDiv.className = 'movie';
-
-      const gradient = document.createElement('div');
-      gradient.className = 'gradient';
-
-      const image = document.createElement('img');
-      image.src = movie.image;
-      image.alt = movie.title;
-
-      const title = document.createElement('h1');
-      title.textContent = movie.title;
-
-      movieDiv.appendChild(gradient);
-      movieDiv.appendChild(image);
-      movieDiv.appendChild(title);
-      movieDiv.addEventListener('click', () => {
-        showDetails(movie, eps);
-      });
-      crime.appendChild(movieDiv);
-    });
   })
   .catch((error) => {
     console.log('Error', error);
   });
+
 
 const showDetails = (movie, eps) => {
   const details = document.getElementById('details');
